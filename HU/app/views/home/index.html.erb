@@ -1,5 +1,5 @@
 <div class="well">
-	<h4>The Universe is God's creation, and it is good.</h4>
+	<h4>The Universe is Gods creation, and it is good.</h4>
 	<p>This Q&amp;A site is dedicated to me learning bootstrap and Ruby On Rails</p>
 </div>
 
@@ -20,6 +20,10 @@
 			</div>
 		</div>
 	</div>
+	<% end %>
+
+	<% if @questions.empty? %>
+	<div class="alert alert-info">Nothing to see here, ask a question.</div>
 	<% end %>
 </div>
 
